@@ -15,6 +15,7 @@ end
 group :development, :test do 
 	gem 'webrick', '~>1.3', '>=1.3.1', :platforms=>[:mingw, :mswin, :x64_mingw, :jruby]
 	gem 'tzinfo-data', :platforms=>[:mingw, :mswin, :x64_mingw, :jruby]
+	# add if using sqlite in development: gem 'sqlite3', '~>1.3', '>=1.3.12'
 	gem 'byebug', '~>9.0', '>=9.0.6'
 	gem 'pry-byebug', '~>3.4', '>=3.4.0'
 	gem 'httparty', '~>0.14', '>=0.14.0'
@@ -25,10 +26,10 @@ end
 group :production do
 	gem 'rails_12factor', '~>0.0', '>=0.0.3'
 	#gem 'pg', '~>0.19', '>=0.19.0'
+
 end
 
 
-#gem 'puma', '~>3.6', '>=3.6.0', :platforms=>:ruby
 gem 'puma', '~>3.6', '>=3.6.0', :platforms=>:ruby
 gem 'pg', '~>0.19', '>=0.19.0'
 gem 'mongoid', '~>5.1', '>=5.1.5'
