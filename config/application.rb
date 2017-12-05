@@ -38,7 +38,7 @@ module Module1
 
     config.middleware.insert_before 0, "Rack::Cors" do
         allow do
-            origins 'siteB.com'
+            origins '*'
 
             resource '/api/*',
             :headers => :any,
