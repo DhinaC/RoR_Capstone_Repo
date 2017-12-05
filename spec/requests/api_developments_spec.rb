@@ -10,8 +10,8 @@ RSpec.describe "ApiDevelopments", type: :request do
 
 	describe "RBDMS-backed" do
 
-		before(:each) {foo.delete_all}
-		after(:each)  {foo.delete_all}
+		before(:each) {Foo.delete_all}
+		after(:each)  {Foo.delete_all}
 
 
 		it "create RBDMS-backed model" do

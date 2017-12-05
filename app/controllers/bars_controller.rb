@@ -13,7 +13,7 @@ class BarsController < ApplicationController
   # GET /bars/1.json
   def show
     #render json: @bar
-    byebug
+    #byebug
   end
 
   # POST /bars

@@ -75,8 +75,11 @@ GEM
     multi_xml (0.6.0)
     nokogiri (1.8.1-x64-mingw32)
       mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.1-x86-mingw32)
+      mini_portile2 (~> 2.3.0)
     origin (2.3.1)
     pg (0.21.0-x64-mingw32)
+    pg (0.21.0-x86-mingw32)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -159,6 +162,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86-mingw32
 
 DEPENDENCIES
   byebug (~> 9.0, >= 9.0.6)
