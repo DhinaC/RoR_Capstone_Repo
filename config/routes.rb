@@ -9,9 +9,9 @@ Rails.application.routes.draw do
 
   get "/client-assets/:name.:format", :to => redirect("/client/client-assets/%{name}.%{format}")
   
-  get '/ui' => 'ui#index'
-  get '/ui#' => 'ui#index'
-  root "ui#index"
+  # get '/ui' => 'ui#index'
+  # get '/ui#' => 'ui#index'
+  # root "ui#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
