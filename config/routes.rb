@@ -8,11 +8,8 @@ Rails.application.routes.draw do
   end
 
   get "/client-assets/:name.:format", :to => redirect("/client/client-assets/%{name}.%{format}")
-<<<<<<< HEAD
   # get "/", :to => redirect("client/index.html")
-=======
-  # get "/", :to => redirect("client/index.html")
->>>>>>> ap-external
+
   
   get '/ui' => 'ui#index'
   get '/ui#' => 'ui#index'
